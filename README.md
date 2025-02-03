@@ -30,6 +30,7 @@ conda activate root
 conda update --all
 python -m pip install --upgrade pip
 ```
+
 <div>Création de l’environnement <b>cours</b> </div>
 <br>
 <div><b>Windows</b> </div>
@@ -40,8 +41,8 @@ python -m pip install --upgrade pip
 conda create -n cours -c conda-forge  python==3.10 ipython ipython-sql jupyter notebook numpy pandas pyarrow matplotlib seaborn colour pydot pyyaml scikit-image scikit-learn plotly
 
 conda activate cours
-
 ```
+
 <br>
 <div><b>Linux</b> </div>
 <br>
@@ -51,7 +52,6 @@ conda activate cours
 conda create -p /home/utilisateur/anaconda3/envs/cours -c conda-forge  python==3.10 ipython ipython-sql jupyter notebook numpy pandas pyarrow matplotlib seaborn colour pydot pyyaml scikit-image scikit-learn plotly
 
 conda activate cours
-
 ```
 
 
